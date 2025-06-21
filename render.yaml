@@ -7,8 +7,6 @@ services:
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: main # optional (defaults to master)
-    numInstances: 1
-    healthCheckPath: /
     envVars:
       - key: DB_POSTGRESDB_SCHEMA
         value: public
